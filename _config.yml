@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+title: Hexo             #網站標題
+subtitle: ''            #網站副標題
+description: ''         #網站描述
+keywords:               #網站的關鍵詞。使用半角逗號 , 分隔多個關鍵詞
+author: Kyle Lin        
+language: zh-TW         #網站使用的語言
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://github.com/Kyle0817/Kyle0817.github.io.git
+url: http://example.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,4 +105,4 @@ deploy:
   type: git
   repo: https://github.com/Kyle0817/Kyle0817.github.io.git
   branch: gh-pages
-  message: first hexo commit    
+  message: change fluid theme  
