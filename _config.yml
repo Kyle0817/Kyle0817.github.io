@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo             #網站標題
-subtitle: ''            #網站副標題
-description: ''         #網站描述
-keywords:               #網站的關鍵詞。使用半角逗號 , 分隔多個關鍵詞
+title: "我的程式學習日誌" #網站標題
+subtitle: ''             #網站副標題
+description: ''          #網站描述
+keywords:                #網站的關鍵詞。使用半角逗號 , 分隔多個關鍵詞
 author: Kyle Lin        
-language: zh-TW         #網站使用的語言
+language: zh-TW          #網站使用的語言
 timezone: ''
 
 # URL
@@ -105,4 +105,4 @@ deploy:
   type: git
   repo: https://github.com/Kyle0817/Kyle0817.github.io.git
   branch: gh-pages
-  message: change fluid theme  
+  message: add categories  
