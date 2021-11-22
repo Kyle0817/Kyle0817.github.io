@@ -437,7 +437,7 @@ index:
   # 头图高度，屏幕百分比
   # Height ratio of banner image
   # Available: 0 - 100
-  banner_img_height: 85
+  banner_img_height: 100
 
   # 头图黑色蒙版的不透明度，available: 0 - 1.0， 1 是完全不透明
   # Opacity of the banner mask, 1.0 is completely opaque
@@ -858,11 +858,11 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/thats okay2.jpg
+  banner_img: 
   banner_img_height: 60
   banner_mask_alpha: 0.3
-  subtitle: xxx
-  avatar: /img/avatar.png
+  subtitle: 關於我
+  avatar: /img/makePhotos.png
   name: "Kyle"
   intro: "前端開發 / 後端開發 / 學習中"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
