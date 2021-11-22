@@ -437,7 +437,7 @@ index:
   # 头图高度，屏幕百分比
   # Height ratio of banner image
   # Available: 0 - 100
-  banner_img_height: 100
+  banner_img_height: 85
 
   # 头图黑色蒙版的不透明度，available: 0 - 1.0， 1 是完全不透明
   # Opacity of the banner mask, 1.0 is completely opaque
@@ -451,7 +451,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "別偷懶了!!請學會自律自制 才對得起以後的自已 "
+    text: "別偷懶了!!請學會自律自制 才對得起以後的自已"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -566,7 +566,7 @@ post:
 
     # 描述文字
     # Descriptive text before date
-    content: 本文最后更新于：
+    content: 本文最後更新於：
 
     # 是否使用相对时间表示，比如："3 天前"
     # If true, it will be a relative time, such as: "3 days ago"
@@ -586,8 +586,8 @@ post:
   # 版权声明，会显示在每篇文章的结尾
   # Copyright, will be displayed at the end of each post
   copyright:
-    enable: true
-    content: '本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！'
+    enable: false
+    content: 
 
   # 文章底部上一篇下一篇功能
   # Link to previous/next post
@@ -696,7 +696,7 @@ gitalk:
   repo:
   owner:
   admin: ['name']
-  language: zh-CN
+  language: zh-TW
   labels: ['Gitalk']
   perPage: 10
   pagerDirection: last
@@ -791,7 +791,7 @@ twikoo:
 cusdis:
   host:
   app_id:
-  lang: zh-cn
+  lang: zh-TW
 
 #---------------------------
 # 归档页
@@ -811,7 +811,7 @@ archive:
 category:
   enable: true
   banner_img: /img/default.png
-  banner_img_height: 60
+  banner_img_height: 70
   banner_mask_alpha: 0.3
   subtitle:
 
@@ -841,7 +841,7 @@ category:
 tag:
   enable: true
   banner_img: /img/default.png
-  banner_img_height: 80
+  banner_img_height: 70
   banner_mask_alpha: 0.3
   subtitle:
   tagcloud:
@@ -858,13 +858,13 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/default.png
-  banner_img_height: 70
+  banner_img: /img/thats okay2.jpg
+  banner_img_height: 60
   banner_mask_alpha: 0.3
-  subtitle:
+  subtitle: xxx
   avatar: /img/avatar.png
   name: "Kyle"
-  intro: "學習中的程式設計師"
+  intro: "前端開發 / 後端開發 / 學習中"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
